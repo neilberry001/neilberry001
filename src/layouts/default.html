@@ -1,0 +1,78 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil Berry - Full Stack Developer</title>
+    <link rel="stylesheet" href="{{root}}assets/css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    
+
+    <div class="top-bar">
+        <div class="row column text-center medium-text-left">
+            <div class="title-bar-left show-for-medium">
+                <ul class="menu ">
+                    <li><a href="mailto:neilberry001@gmail.com"><i class="fi-mail"></i> <span>Email</span></a></li>
+                    <li><a href="https://github.com/neilberry001"><i class="fi-social-github"></i> <span>Github</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/neil-berry-218b8120"><i class="fi-social-linkedin"></i> <span>Linkedin</span></a></li>
+                    <li><a href="https://twitter.com/83rry"><i class="fi-social-twitter"></i> <span>Twitter</span></a></li>
+                </ul>
+    
+            </div>
+            
+            
+            <ul class="menu vertical show-for-small-only">
+                <li><h5><a href="mailto:neilberry001@gmail.com"><i class="fi-mail"></i> <span>Email</span></a></h5></li>
+                <li><h5><a href="https://github.com/neilberry001"><i class="fi-social-github"></i> <span>Github</span></a></h5></li>
+                <li><h5><a href="https://www.linkedin.com/in/neil-berry-218b8120"><i class="fi-social-linkedin"></i> <span>Linkedin</span></a></h5></li>
+                <li><h5><a href="https://twitter.com/83rry"><i class="fi-social-twitter"></i> <span>Twitter</span></a></h5></li>
+            </ul>
+        </div>
+    </div>
+
+    
+    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+    {{> body}}
+    
+    
+    <div class="callout secondary large">
+    
+        <div class="row column large-6 align-center">
+            
+            <div class="row column small-12 align-center">
+                <h2>You can find me...</h2>
+            </div>
+            
+            <div class="row column small-12 align-center">
+            
+                <ul class="menu show-for-medium">
+                    <li><a href="mailto:neilberry001@gmail.com"><i class="fi-mail"></i> <span>Email</span></a></li>
+                    <li><a href="https://github.com/neilberry001"><i class="fi-social-github"></i> <span>Github</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/neil-berry-218b8120"><i class="fi-social-linkedin"></i> <span>Linkedin</span></a></li>
+                    <li><a href="https://twitter.com/83rry"><i class="fi-social-twitter"></i> <span>Twitter</span></a></li>
+                </ul>
+                <ul class="menu vertical show-for-small-only">
+                    <li><h5><a href="mailto:neilberry001@gmail.com"><i class="fi-mail"></i> <span>Email</span></a></h5></li>
+                    <li><h5><a href="https://github.com/neilberry001"><i class="fi-social-github"></i> <span>Github</span></a></h5></li>
+                    <li><h5><a href="https://www.linkedin.com/in/neil-berry-218b8120"><i class="fi-social-linkedin"></i> <span>Linkedin</span></a></h5></li>
+                    <li><h5><a href="https://twitter.com/83rry"><i class="fi-social-twitter"></i> <span>Twitter</span></a></h5></li>
+                </ul>
+            
+            </div>
+            
+        </div>    
+    
+    </div>
+    <div class="row column align-center">
+        <p>Copyright &copy; 2016 Neil Berry</p>
+    </div>
+    
+    
+    <script src="{{root}}assets/js/app.js"></script>
+  </body>
+</html>
