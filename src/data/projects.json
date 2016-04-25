@@ -1,0 +1,97 @@
+[
+    {
+      "key": "oc",
+      "name": "Osborne Clarke",
+      "images": {
+        "small": "oc-small.png",
+        "medium": "oc-medium.png",
+        "large": "oc.png"
+      },
+      "content": {
+        "lead": "Consistent reusable codebase",
+        "full": "Transparent client relation and development production. A multisite network with highly adaptable and versatile codebase. Osborne Clarke are ‘the firm’ having led the digital legal revolution since early 2000. Winners of ‘Law Firm of the Year’ in 2015.",
+        "links": [
+            {
+                "name": "Marketing Law Osborne Clarke",
+                "link": "marketinglaw.osborneclarke.com",
+                "url": "marketinglaw.osborneclarke.com"
+            },
+            {
+                "name": "Future Trainees Osborne Clarke",
+                "link": "futuretrainees.osborneclarke.com",
+                "url": "futuretrainees.osborneclarke.com"
+            },
+            {
+                "name": "Connected Consumer Osborne Clarke",
+                "link": "connectedconsumer.osborneclarke.com",
+                "url": "connectedconsumer.osborneclarke.com"
+            },
+            {
+                "name": "Smart Cities Osborne Clarke",
+                "link": "smartcities.osborneclarke.com",
+                "url": "smartcities.osborneclarke.com"
+            }
+        ]
+      }
+    },
+    {
+      "key": "talon",
+      "name": "Talon Product Finder",
+      "images": {
+        "small": "talon-small.png",
+        "medium": "talon-medium.png",
+        "large": "talon.png"
+      },
+      "content": {
+      "lead": "Simplifying the complex",
+        "full": "Working closely with the product experts at Talon, I broke the often complex data-relationships into a logical and standardised structure. This allowed the quicker development of the feature list.",
+        "links": [
+            {
+                "name": "Talon Product Finder",
+                "link": "finder.talon-eng.co.uk",
+                "url": "finder.talon-eng.co.uk/?tpf_manufacturer=19&tpf_model=216&tpf_year=32908"
+            }
+        ]
+      }
+    },
+    {
+      "key": "ans",
+      "name": "Advice North Somerset",
+      "images": {
+        "small": "ans-small.png",
+        "medium": "ans-medium.png",
+        "large": "ans.png"
+      },
+      "content": {
+        "lead": "Usability for large data",
+        "full": "Working closely with the client to establish user abilities and scenarios. I produced structured and logical data architecture for the site that would result in the most efficient user journey.",
+        "links": [
+            {
+                "name": "Advice North Somerset",
+                "link": "www.advicenorthsomerset.org.uk",
+                "url": "www.advicenorthsomerset.org.uk"
+            }
+        ]
+      }
+    },
+    {
+      "key": "mxvice",
+      "name": "MX vice",
+      "images": {
+        "small": "mxvice-small.png",
+        "medium": "mxvice-medium.png",
+        "large": "mxvice.png"
+      },
+      "content": {
+        "lead": "Scalable hosting architecture with load testing",
+        "full": "On-going testing and architecture refinement of a horizontal scaling environment, along with heavy caching of codebase to cope with 1,000's of international daily visits.",
+        "links": [
+            {
+                "name": "MX Vice",
+                "link": "www.mxvice.com",
+                "url": "www.mxvice.com"
+            }
+        ]
+      }
+    }
+]
